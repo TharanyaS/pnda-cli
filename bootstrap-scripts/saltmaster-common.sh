@@ -163,6 +163,9 @@ hdp:
 mine_functions:
   network.ip_addrs: [$PNDA_INTERNAL_NETWORK]
   grains.items: []
+  grains.item:
+    ec2: ['public_ipv4']
+
 
 security:
   security: $SECURITY_MODE
